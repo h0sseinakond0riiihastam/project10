@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements NetworkChangeRece
         setContentView(R.layout.activity_main);
 
         internetButton = findViewById(R.id.internetButton);
-        internetButton.setVisibility(View.GONE); // پیش‌فرض مخفی
+        internetButton.setVisibility(View.GONE);
         internetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
